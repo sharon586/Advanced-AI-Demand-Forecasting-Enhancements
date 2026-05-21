@@ -4,41 +4,41 @@ A full-stack AI-powered demand forecasting platform with advanced analytics, mul
 
 ---
 
-## 🚀 What's New in v2.0
+## What's New in v2.0
 
-### ✅ Advanced Forecasting Enhancements
+### Advanced Forecasting Enhancements
 - **4 ML Models**: Linear Regression, Random Forest, XGBoost (Gradient Boosting fallback), ARIMA
 - **Model Comparison**: Side-by-side accuracy, MAE, RMSE, R² comparison table + chart
 - **Forecast History**: Full paginated history with model, category, region, accuracy
 - **Prediction Metrics**: MAE, RMSE, R² Score, Accuracy % stored per forecast
 - **Filters**: Category, Region per forecast run
 
-### ✅ Admin Panel Module
+### Admin Panel Module
 - **Admin Dashboard**: KPI cards, API calls chart, model usage pie chart, storage meter
 - **User Management**: List, search, activate/deactivate, delete users
 - **System Analytics Tab**: Model performance over time, response times, error rates
 - **Recent Activity Monitor**: All user actions tracked in real-time
 
-### ✅ Notifications Module
+### Notifications Module
 - **In-app notification bell** in the Navbar with unread badge counter
 - **Notification dropdown**: Quick preview, mark read, mark all read
 - **Full Notifications page**: Filter by type (success/error/warning/info/unread)
 - **Auto-triggered notifications** on: forecast complete, dataset upload, upload fail, report ready, stock alert
 
-### ✅ Dashboard Enhancements
+### Dashboard Enhancements
 - **Filters**: Date Range, Product Category, Region — all live-filtered
 - **Advanced Charts**: Area chart (sales vs forecast), Pie chart (region), multi-line AI forecast
 - **Recent Forecasting Activity** section with status badges
 - **Collapsible Sidebar** for more screen real estate
 
-### ✅ API Enhancements
+###  API Enhancements
 - **Pagination** on all list endpoints (datasets, reports, forecasts, notifications, users)
 - **Search & Filter** query params on datasets, reports, users
 - **Full CRUD** on datasets and notifications
 - **Model comparison endpoint** `/forecast/compare`
 - **Forecast history endpoint** `/forecast/history`
 
-### ✅ Frontend Enhancements
+###  Frontend Enhancements
 - **Collapsible sidebar** with icon-only collapsed state
 - **Sticky Navbar** with notification dropdown
 - **Loading states** and button feedback on all async actions
@@ -46,21 +46,21 @@ A full-stack AI-powered demand forecasting platform with advanced analytics, mul
 - **Mobile-responsive** grid layouts
 - **Settings tabs**: Profile, Notifications, API Settings, Security
 
-### ✅ Reports & Export
+### Reports & Export
 - **Detailed table view** with month, sales, forecast, growth, profit, category, region
 - **PDF export** with styled autoTable (violet header)
 - **Excel export** via SheetJS
 - **Saved reports library** with quick download buttons
 - **Report detail modal** on click
 
-### ✅ Database Enhancements
+### Database Enhancements
 - **Indexed columns** on all frequently queried fields (email, role, created_at, is_read)
 - **Enriched models**: Dataset (category, region, file_size, columns_list), Forecast (mae, rmse, r2, category, region), Report (date_from, date_to, growth_rate), Notification (type, is_read), User (is_active, last_login)
 
 ---
 
 
-## ⚙️ Setup Instructions
+##  Setup Instructions
 
 ### Backend
 
@@ -101,7 +101,7 @@ App: http://localhost:5173
 
 ---
 
-## 🔐 Demo Login
+##  Demo Login
 
 Use any email/password — the demo accepts all credentials.
 
@@ -111,7 +111,7 @@ Use any email/password — the demo accepts all credentials.
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Layer | Technology |
 |-------|-----------|
