@@ -125,7 +125,7 @@ Use any email/password — the demo accepts all credentials.
 
 ---
 
-## 📡 API Endpoints
+##  API Endpoints
 
 | Method | Endpoint | Description |
 |--------|----------|-------------|
